@@ -31,7 +31,9 @@ function setup() {
 	groundSprite=createSprite(width/2, height-35, width,10);
 	groundSprite.shapeColor=color(255)
 
-	rect1 = new rect(400,650,120,20);
+	rect1 = new Rect(400,650,120,20);
+	rect2 = new Rect(340,720,20,120);
+	rect3 = new Rect(340,590,20,120);
 	
 
 	packageBody = Bodies.circle(width/2 , 200 , 5 , {restitution:0.6, isStatic:true});
